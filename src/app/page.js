@@ -10,14 +10,14 @@ import Testimonials from "./components/testimonials/Testimonials";
 
 export default function Home() {
   return <main className="flex flex-col gap-5">
-  {/* <Hero/> */}
+  <Hero/>
   <Categories/>
-  {/* <Destinations/> */}
+  <Destinations/>
   <Booking/>
   <Testimonials/>
   <Logos/>
   <Subscription/>
-  {/* <Footer/> */}
+  <Footer/>
   </main>
   ;
 }

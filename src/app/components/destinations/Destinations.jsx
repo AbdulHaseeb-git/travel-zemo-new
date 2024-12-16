@@ -35,8 +35,8 @@ const Destinations = () => {
                 <h3 className="text-center font-poppins font-semibold text-lg text-[#5E6282]">Top Selling</h3>
                 <h2 className="text-center font-volkhov font-bold text-5xl text-[#14183E">Top Destinations</h2>
               </div>
-              <div className="relative w-full flex items-start  min-h-[50vh]">
-        <div className="absolute left-0 top-0 max-h-full w-full flex items-start justify-between z-10">
+              <div className="relative h-fit w-full flex items-start min-h-[50vh] gap-10">
+        <div className="relative h-full w-full flex gap-10 flex-wrap items-start justify-center  z-10">
             {
                 destinations.map((destination)=>(
                     <DestinationCard props={destination} key={destination.place} />

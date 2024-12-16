@@ -83,7 +83,6 @@ const Booking = () => {
             <Image
               src={"/images/booking/Rectangle 17.png"}
               alt="Trip to Greece"
-              layout="responsive"
               width={400}
               height={200}
               className="w-full h-full object-cover"
